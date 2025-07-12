@@ -31,7 +31,7 @@ export default function LinkhubApp() {
           <a href="https://www.linkedin.com/in/nikilkumar07/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-              <a href="https://instagram.com/being_nikil07" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/being_nikhil07" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i> Instagram
           </a>
            <a href="https://wa.me/qr/CT7ALNUJWKDHA1" target="_blank" rel="noopener noreferrer">
