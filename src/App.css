@@ -1,0 +1,83 @@
+/* Linkhub.css */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-card {
+  background: #1f2937;
+  border-radius: 15px;
+  padding: 30px 25px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid #4ade80;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.profile-header h2 {
+  margin: 10px 0 4px;
+  font-size: 24px;
+  color: #facc15;
+}
+
+.profile-header p {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.profile-links {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-links a {
+  text-decoration: none;
+  background: #374151;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.profile-links a:hover {
+  background: #4ade80;
+  color: #1f2937;
+}
+
+.profile-footer {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
